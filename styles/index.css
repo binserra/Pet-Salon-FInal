@@ -1,0 +1,16 @@
+.menu{
+    background-color: lightskyblue;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+    padding: 8px 10px;
+
+}
+
+body{
+    background-color: #09bb7d;
+    color: black;
+    text-align: center;
+}
