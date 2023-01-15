@@ -86,7 +86,7 @@ let newPet = new Pet(inputName.value,inputAge.value,inputGender.value,inputBreed
 if(validatePet(newPet)==true){
     petSalon.pets.push(newPet);
     displayInfo();
-    displayPetCards();
+    displayTable();
     console.log(petSalon.pets);
         // display the obj on the console
     clearForm();
@@ -144,7 +144,7 @@ let happy = new Pet("Happy",5,"Female","Pitbull","Nail Trim","Bri","111-222-3333
 petSalon.pets.push(scooby,scrappy,happy);  
 // adding the pet array
 displayInfo();
-displayPetCards();
+displayTable();
 }
 window.onload = init;
 
